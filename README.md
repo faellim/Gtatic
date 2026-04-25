@@ -132,4 +132,11 @@ python -m http.server 4173
 Then open:
 
 http://127.0.0.1:4173
+```
 ---
+
+📄 License
+
+This project is licensed under the MIT License.
+See the LICENSE
+ file for details.
