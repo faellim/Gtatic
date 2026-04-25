@@ -1,150 +1,135 @@
-# GTATIC
+# 🎮 GTATIC
 
-GTATIC is a professional static e-sports portal built with HTML, CSS and vanilla JavaScript. It is designed for portfolio use, GitHub Pages, Vercel, or any static host, while still supporting a hybrid data layer for teams, players, rankings, and local assets.
+GTATIC is a professional static e-sports portal focused on Counter-Strike 2 (CS2), built with HTML, CSS and vanilla JavaScript.
 
-## Preview
+It was designed as a **portfolio-ready project** that simulates a real-world esports platform, combining modern UI, structured data handling, and resilient architecture — even without a full backend.
+
+---
+
+## 🌐 Live Demo
+
+🔗 https://gtatic.vercel.app
+
+---
+
+## 🖼️ Preview
 
 ![GTATIC preview](assets/ui/gtatic.png)
 
-## Demo
+---
 
-Suggested GitHub Pages URL:
+## 💡 About the Project
 
-```text
-https://faellim.github.io/gtatic
-```
+GTATIC was built to demonstrate how far a **pure front-end application** can go when designed with:
 
-## Features
+- Structured data architecture
+- API integration with fallback strategies
+- Realistic product thinking (UX, states, errors, offline handling)
 
-- Hybrid data system: BALLDONTLIE basic API, local JSON fallback, embedded fallback, and local assets
-- Free-tier friendly API usage with cache and cooldown
-- Updated team ranking and player ranking with local images
-- BLAST-based team logo mapping for ranked teams
-- Search and filters for rankings, news, and matches
-- Mobile-first responsive layout
-- Dark/light theme with `localStorage`
-- Accessible focus states, labels, and semantic markup
-- Contact form validation with success feedback
-- Basic SEO and Open Graph tags on every page
+Instead of relying entirely on external APIs, the project uses a **hybrid data system** to ensure reliability and performance.
 
-## Tech Stack
+---
 
-- HTML5
-- CSS3
-- Vanilla JavaScript
-- Local JSON data files
-- Local SVG, PNG, and JPG assets
+## ⚙️ Features
 
-## Folder Structure
+- 🔄 Hybrid data system (API + local fallback + embedded fallback)
+- 📊 Team and player rankings with local assets
+- 🖼️ Local image mapping (teams, players, flags)
+- 🔍 Search and filtering (rankings, matches, news)
+- 📱 Mobile-first responsive design
+- 🌙 Dark / Light mode persisted via `localStorage`
+- ⚡ API cache system with cooldown handling (429 safe)
+- 🧠 Graceful offline fallback ("Using offline data")
+- ♿ Accessibility improvements (focus states, labels, semantic HTML)
+- 📬 Contact form with validation feedback
+- 🔎 SEO + Open Graph meta tags
+
+---
+
+## 🧱 Architecture Highlights
+
+This project does **not depend entirely on APIs**.
+
+### Data loading priority:
+
+1. External API (BALLDONTLIE)
+2. Cached API response
+3. Local JSON (`/data`)
+4. Embedded fallback (`fallback-data.js`)
+5. Local assets rendering
+
+This ensures:
+
+- No UI breaks
+- Offline usability
+- Stable demo experience for recruiters
+
+---
+
+## 🔌 API Integration
+
+GTATIC uses the free tier of the BALLDONTLIE CS2 API.
+
+### Endpoints used:
+
+## 📁 Project Structure
 
 ```text
 /
-|-- assets
-|   |-- flags
-|   |-- icons
-|   |-- images
-|   |-- players
-|   |-- teams
-|   `-- ui
-|-- css
+|-- assets/
+|   |-- flags/
+|   |-- icons/
+|   |-- images/
+|   |-- players/
+|   |-- teams/
+|   `-- ui/
+|-- css/
 |   `-- style.css
-|-- data
+|-- data/
 |   |-- events.json
 |   |-- matches.json
 |   |-- news.json
 |   |-- players.json
 |   `-- teams.json
-|-- js
+|-- js/
 |   |-- api.js
 |   |-- fallback-data.js
 |   |-- script.js
 |   |-- state.js
 |   `-- ui.js
-|-- .gitignore
-|-- LICENSE
-|-- contato.html
-|-- eventos.html
+|-- pages/
+|   |-- contato.html
+|   |-- eventos.html
+|   |-- noticias.html
+|   |-- partidas.html
+|   `-- ranking.html
 |-- index.html
-|-- noticias.html
-|-- partidas.html
-|-- ranking.html
+|-- LICENSE
 `-- README.md
 ```
+---
+🖼️ Asset Strategy
 
-## Hybrid Data System
+All images are locally hosted to avoid external dependency issues.
 
-GTATIC does not depend entirely on external APIs.
+Team logos → /assets/teams
+Player images → /assets/players
+Flags → /assets/flags
+UI elements → /assets/ui
 
-Loading order:
+Missing assets fallback gracefully to placeholders.
 
-1. Try BALLDONTLIE free endpoints for basic team and player data.
-2. Use cached API data when available.
-3. Fall back to local JSON files in `/data`.
-4. Fall back to embedded data in `js/fallback-data.js` when needed.
-5. Render only local images from `/assets`.
+🧪 Run Locally
 
-If API data is unavailable, the site displays:
+Because the project fetches local JSON files, use a static server:
 
-```text
-Using offline data
-```
-
-## BALLDONTLIE API
-
-The project uses the BALLDONTLIE CS2 API with the free tier. The free tier exposes `Teams`, `Players`, `Tournaments`, and `Tournament Teams`, but does not expose `Rankings` or `Matches`.
-
-To respect the 5 requests/minute free limit, GTATIC currently calls only:
-
-```text
-GET https://api.balldontlie.io/cs/v1/teams?per_page=100
-GET https://api.balldontlie.io/cs/v1/players?per_page=100&active=true
-```
-
-Rankings, ratings, and matches remain local because those endpoints are not available in the free plan. If the API returns `429`, the project enters a temporary cooldown and keeps rendering offline data without breaking the UI.
-
-## Local Assets
-
-The project avoids hotlinked images in the final UI.
-
-- Team logos live in `/assets/teams`
-- Player images live in `/assets/players`
-- Country flags live in `/assets/flags`
-- UI artwork and placeholders live in `/assets/ui`
-
-Mappings in `js/state.js` and `js/fallback-data.js` connect ranking names to local files. Missing assets fall back gracefully so the layout remains stable.
-
-## Run Locally
-
-Because the project fetches local JSON files, run it through a static server:
-
-```bash
 npx serve .
-```
 
 or:
 
-```bash
 python -m http.server 4173
-```
 
 Then open:
 
-```text
 http://127.0.0.1:4173
-```
-
-## Future Improvements
-
-- Add real detail pages for teams, players, matches, and news
-- Add build-time image optimization
-- Add automated accessibility tests
-- Add service worker caching for stronger offline support
-- Add visual regression screenshots for UI QA
-
-## Author
-
-Developed by Rafael as a front-end portfolio project.
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE).
+---
