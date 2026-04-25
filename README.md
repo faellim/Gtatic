@@ -122,7 +122,7 @@ Missing assets fallback gracefully to placeholders.
 🧪 Run Locally
 
 Because the project fetches local JSON files, use a static server:
-
+```text
 npx serve .
 
 or:
