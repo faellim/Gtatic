@@ -19,7 +19,7 @@ It was designed as a **portfolio-ready project** that simulates a real-world esp
 
 ## 🖼️ Preview
 
-![GTATIC preview](assets/ui/gtatic.png)
+![GTATIC preview](assets/ui/gtatic.svg)
 
 ---
 
