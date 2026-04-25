@@ -1,0 +1,242 @@
+[
+  {
+    "position": 1,
+    "name": "Vitality",
+    "country": "eu",
+    "points": 2079,
+    "change": 0,
+    "game": "CS2"
+  },
+  {
+    "position": 2,
+    "name": "Natus Vincere",
+    "country": "eu",
+    "points": 1916,
+    "change": 0,
+    "game": "CS2"
+  },
+  {
+    "position": 3,
+    "name": "Falcons",
+    "country": "eu",
+    "points": 1869,
+    "change": 3,
+    "game": "CS2"
+  },
+  {
+    "position": 4,
+    "name": "FUT",
+    "country": "eu",
+    "points": 1852,
+    "change": 7,
+    "game": "CS2"
+  },
+  {
+    "position": 5,
+    "name": "Spirit",
+    "country": "eu",
+    "points": 1849,
+    "change": 4,
+    "game": "CS2"
+  },
+  {
+    "position": 6,
+    "name": "Astralis",
+    "country": "eu",
+    "points": 1834,
+    "change": 4,
+    "game": "CS2"
+  },
+  {
+    "position": 7,
+    "name": "The MongolZ",
+    "country": "as",
+    "points": 1829,
+    "change": 1,
+    "game": "CS2"
+  },
+  {
+    "position": 8,
+    "name": "FURIA",
+    "country": "am",
+    "points": 1821,
+    "change": -4,
+    "game": "CS2"
+  },
+  {
+    "position": 9,
+    "name": "MOUZ",
+    "country": "eu",
+    "points": 1781,
+    "change": -4,
+    "game": "CS2"
+  },
+  {
+    "position": 10,
+    "name": "PARIVISION",
+    "country": "eu",
+    "points": 1780,
+    "change": -7,
+    "game": "CS2"
+  },
+  {
+    "position": 11,
+    "name": "Aurora",
+    "country": "eu",
+    "points": 1778,
+    "change": -4,
+    "game": "CS2"
+  },
+  {
+    "position": 12,
+    "name": "G2",
+    "country": "eu",
+    "points": 1668,
+    "change": 0,
+    "game": "CS2"
+  },
+  {
+    "position": 13,
+    "name": "3DMAX",
+    "country": "eu",
+    "points": 1567,
+    "change": 7,
+    "game": "CS2"
+  },
+  {
+    "position": 14,
+    "name": "B8",
+    "country": "eu",
+    "points": 1561,
+    "change": 12,
+    "game": "CS2"
+  },
+  {
+    "position": 15,
+    "name": "paiN",
+    "country": "am",
+    "points": 1559,
+    "change": 2,
+    "game": "CS2"
+  },
+  {
+    "position": 16,
+    "name": "9z",
+    "country": "am",
+    "points": 1558,
+    "change": -3,
+    "game": "CS2"
+  },
+  {
+    "position": 17,
+    "name": "Legacy",
+    "country": "am",
+    "points": 1556,
+    "change": -1,
+    "game": "CS2"
+  },
+  {
+    "position": 18,
+    "name": "Monte",
+    "country": "eu",
+    "points": 1514,
+    "change": -4,
+    "game": "CS2"
+  },
+  {
+    "position": 19,
+    "name": "HEROIC",
+    "country": "eu",
+    "points": 1499,
+    "change": 2,
+    "game": "CS2"
+  },
+  {
+    "position": 20,
+    "name": "BIG",
+    "country": "eu",
+    "points": 1490,
+    "change": 3,
+    "game": "CS2"
+  },
+  {
+    "position": 21,
+    "name": "BetBoom",
+    "country": "eu",
+    "points": 1480,
+    "change": -3,
+    "game": "CS2"
+  },
+  {
+    "position": 22,
+    "name": "Alliance",
+    "country": "eu",
+    "points": 1450,
+    "change": -3,
+    "game": "CS2"
+  },
+  {
+    "position": 23,
+    "name": "GamerLegion",
+    "country": "eu",
+    "points": 1443,
+    "change": -8,
+    "game": "CS2"
+  },
+  {
+    "position": 24,
+    "name": "MIBR",
+    "country": "am",
+    "points": 1436,
+    "change": 11,
+    "game": "CS2"
+  },
+  {
+    "position": 25,
+    "name": "FOKUS",
+    "country": "eu",
+    "points": 1420,
+    "change": 21,
+    "game": "CS2"
+  },
+  {
+    "position": 26,
+    "name": "EYEBALLERS",
+    "country": "eu",
+    "points": 1415,
+    "change": 12,
+    "game": "CS2"
+  },
+  {
+    "position": 27,
+    "name": "M80",
+    "country": "am",
+    "points": 1411,
+    "change": 3,
+    "game": "CS2"
+  },
+  {
+    "position": 28,
+    "name": "Ninjas in Pyjamas",
+    "country": "eu",
+    "points": 1406,
+    "change": -3,
+    "game": "CS2"
+  },
+  {
+    "position": 29,
+    "name": "Nemesis",
+    "country": "eu",
+    "points": 1378,
+    "change": 8,
+    "game": "CS2"
+  },
+  {
+    "position": 30,
+    "name": "NRG",
+    "country": "am",
+    "points": 1378,
+    "change": -3,
+    "game": "CS2"
+  }
+]

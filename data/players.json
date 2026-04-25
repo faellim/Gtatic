@@ -1,0 +1,242 @@
+[
+  {
+    "position": 1,
+    "name": "ZywOo",
+    "team": "Vitality",
+    "country": "fr",
+    "rating": 1.58,
+    "change": 0
+  },
+  {
+    "position": 2,
+    "name": "donk",
+    "team": "Spirit",
+    "country": "ru",
+    "rating": 1.42,
+    "change": 0
+  },
+  {
+    "position": 3,
+    "name": "flameZ",
+    "team": "Vitality",
+    "country": "il",
+    "rating": 1.34,
+    "change": 4
+  },
+  {
+    "position": 4,
+    "name": "m0NESY",
+    "team": "Falcons",
+    "country": "ru",
+    "rating": 1.32,
+    "change": 0
+  },
+  {
+    "position": 5,
+    "name": "Banjo",
+    "team": "FOKUS",
+    "country": "se",
+    "rating": 1.27,
+    "change": 12
+  },
+  {
+    "position": 6,
+    "name": "Staehr",
+    "team": "Astralis",
+    "country": "dk",
+    "rating": 1.25,
+    "change": 3
+  },
+  {
+    "position": 7,
+    "name": "ropz",
+    "team": "Vitality",
+    "country": "ee",
+    "rating": 1.23,
+    "change": -4
+  },
+  {
+    "position": 8,
+    "name": "insani",
+    "team": "MIBR",
+    "country": "br",
+    "rating": 1.23,
+    "change": 16
+  },
+  {
+    "position": 9,
+    "name": "KSCERATO",
+    "team": "FURIA",
+    "country": "br",
+    "rating": 1.23,
+    "change": 0
+  },
+  {
+    "position": 10,
+    "name": "makazze",
+    "team": "Natus Vincere",
+    "country": "xk",
+    "rating": 1.21,
+    "change": 10
+  },
+  {
+    "position": 11,
+    "name": "HexT",
+    "team": "NRG",
+    "country": "ca",
+    "rating": 1.21,
+    "change": 8
+  },
+  {
+    "position": 12,
+    "name": "XANTARES",
+    "team": "Aurora",
+    "country": "tr",
+    "rating": 1.2,
+    "change": 5
+  },
+  {
+    "position": 13,
+    "name": "phzy",
+    "team": "Astralis",
+    "country": "se",
+    "rating": 1.2,
+    "change": 6
+  },
+  {
+    "position": 14,
+    "name": "kl1m",
+    "team": "MIBR",
+    "country": "ru",
+    "rating": 1.2,
+    "change": 10
+  },
+  {
+    "position": 15,
+    "name": "Luken",
+    "team": "Gaimin Gladiators",
+    "country": "ar",
+    "rating": 1.2,
+    "change": 5
+  },
+  {
+    "position": 16,
+    "name": "kyousuke",
+    "team": "Falcons",
+    "country": "ru",
+    "rating": 1.2,
+    "change": 12
+  },
+  {
+    "position": 17,
+    "name": "Dawy",
+    "team": "ICE",
+    "country": "ua",
+    "rating": 1.19,
+    "change": 4
+  },
+  {
+    "position": 18,
+    "name": "sh1ro",
+    "team": "Spirit",
+    "country": "ru",
+    "rating": 1.19,
+    "change": -6
+  },
+  {
+    "position": 19,
+    "name": "xfl0ud",
+    "team": "HEROIC",
+    "country": "tr",
+    "rating": 1.18,
+    "change": 2
+  },
+  {
+    "position": 20,
+    "name": "electroNic",
+    "team": "BC.Game",
+    "country": "ru",
+    "rating": 1.18,
+    "change": 25
+  },
+  {
+    "position": 21,
+    "name": "reck",
+    "team": "M80",
+    "country": "us",
+    "rating": 1.17,
+    "change": 7
+  },
+  {
+    "position": 22,
+    "name": "Rainwaker",
+    "team": "Monte",
+    "country": "bg",
+    "rating": 1.17,
+    "change": 20
+  },
+  {
+    "position": 23,
+    "name": "Matheos",
+    "team": "FOKUS",
+    "country": "rs",
+    "rating": 1.16,
+    "change": 8
+  },
+  {
+    "position": 24,
+    "name": "jabbi",
+    "team": "Astralis",
+    "country": "dk",
+    "rating": 1.16,
+    "change": 0
+  },
+  {
+    "position": 25,
+    "name": "xKacpersky",
+    "team": "Ninjas in Pyjamas",
+    "country": "pl",
+    "rating": 1.16,
+    "change": 0
+  },
+  {
+    "position": 26,
+    "name": "HeavyGod",
+    "team": "G2",
+    "country": "il",
+    "rating": 1.16,
+    "change": 0
+  },
+  {
+    "position": 27,
+    "name": "Spinx",
+    "team": "MOUZ",
+    "country": "il",
+    "rating": 1.15,
+    "change": 0
+  },
+  {
+    "position": 28,
+    "name": "NiKo",
+    "team": "Falcons",
+    "country": "ba",
+    "rating": 1.15,
+    "change": 0
+  },
+  {
+    "position": 29,
+    "name": "r1nkle",
+    "team": "Ninjas in Pyjamas",
+    "country": "ua",
+    "rating": 1.14,
+    "change": 0
+  },
+  {
+    "position": 30,
+    "name": "dumau",
+    "team": "Legacy",
+    "country": "br",
+    "rating": 1.14,
+    "change": 0
+  }
+]

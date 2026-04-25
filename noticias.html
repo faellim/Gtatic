@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Notícias fictícias e atuais de e-sports no GTATIC, com filtros por CS2, Valorant, LoL e Overwatch.">
+    <meta name="author" content="Rafael">
+    <meta property="og:title" content="Notícias | GTATIC">
+    <meta property="og:description" content="Atualizações, bastidores e análises rápidas dos principais cenários de e-sports.">
+    <meta property="og:image" content="assets/images/gtatic.png">
+    <meta property="og:type" content="website">
+    <title>Notícias de e-sports | GTATIC</title>
+    <link rel="icon" href="assets/icons/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="noticias">
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="GTATIC - página inicial">
+            <img src="assets/images/gtatic.png" alt="Logotipo GTATIC" width="144" height="48">
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-controls="primary-menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        <nav class="site-nav" aria-label="Navegação principal">
+            <ul id="primary-menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="ranking.html">Ranking</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="partidas.html">Partidas</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Alternar tema">Tema</button>
+    </header>
+    <p class="source-banner" data-source-banner hidden></p>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <span class="eyebrow">Central de notícias</span>
+                <h1>Notícias de e-sports</h1>
+                <p>Atualizações fictícias, atuais e organizadas por modalidade para dar cara de portal real ao projeto.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container toolbar">
+                <label class="search-field" for="news-search">
+                    <span>Buscar notícias</span>
+                    <input id="news-search" type="search" data-news-search placeholder="Ex.: CS2, final, lineup">
+                </label>
+                <div class="filter-group" data-news-filters aria-label="Filtrar notícias por jogo"></div>
+            </div>
+            <div class="container card-grid" data-news-list></div>
+            <p class="empty-state container" data-news-empty hidden>Nenhuma notícia encontrada.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 GTATIC. Projeto estático para portfólio.</p>
+    </footer>
+    <button class="back-to-top" type="button" data-back-to-top aria-label="Voltar ao topo">↑</button>
+    <script src="js/fallback-data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

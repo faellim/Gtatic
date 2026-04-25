@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="Team placeholder">
+  <rect width="160" height="160" rx="32" fill="#202634"/>
+  <path d="M80 24 126 42v34c0 29-18 51-46 60-28-9-46-31-46-60V42l46-18Z" fill="#f59e0b"/>
+  <path d="M58 70h44v16H88v34H72V86H58V70Z" fill="#17110a"/>
+</svg>

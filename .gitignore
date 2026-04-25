@@ -1,0 +1,30 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+
+# Temporary local scrape/export artifacts
+blast-ranking-assets/
+blast-ranking-assets-p1-p2/
+blast-ranking-assets-p1-p2.zip
+player-image-sync-report.json
+player-image-blast-report.json
+player-image-missing-report.json
+player-image-last-mile-report.json
+
+# Generated helper JSON files for local asset sync
+js/player-images-liquipedia.json
+js/player-images-blast.json
+js/player-images-liquipedia-missing.json
+js/player-images-last-mile.json
+
+# Python cache
+__pycache__/
+*.pyc

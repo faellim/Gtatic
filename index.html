@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GTATIC é um portal estático de e-sports com notícias, partidas, eventos e rankings de CS2, Valorant, LoL e Overwatch.">
+    <meta name="author" content="Rafael">
+    <meta property="og:title" content="GTATIC | Portal de e-sports">
+    <meta property="og:description" content="Acompanhe notícias, partidas, eventos e rankings em um portal moderno de e-sports.">
+    <meta property="og:image" content="assets/images/gtatic.png">
+    <meta property="og:type" content="website">
+    <title>GTATIC | Portal moderno de e-sports</title>
+    <link rel="icon" href="assets/icons/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="GTATIC - página inicial">
+            <img src="assets/images/gtatic.png" alt="Logotipo GTATIC" width="144" height="48">
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-controls="primary-menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" aria-label="Navegação principal">
+            <ul id="primary-menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="ranking.html">Ranking</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="partidas.html">Partidas</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Alternar tema">Tema</button>
+    </header>
+    <p class="source-banner" data-source-banner hidden></p>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <span class="eyebrow">Portal competitivo</span>
+                    <h1>GTATIC acompanha o ritmo dos e-sports em tempo real.</h1>
+                    <p>Notícias, partidas, eventos e rankings fictícios em uma experiência estática feita para portfólio, responsiva e pronta para GitHub Pages.</p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="noticias.html">Ver notícias</a>
+                        <a class="btn btn-ghost" href="partidas.html">Próximas partidas</a>
+                    </div>
+                </div>
+                <article class="hero-panel" aria-label="Destaque do portal">
+                    <span class="badge">Ao vivo</span>
+                    <h2>LOUD vs FURIA</h2>
+                    <p>Final do Circuito Brasil de Valorant com cobertura especial do GTATIC.</p>
+                    <strong>Hoje, 20h30</strong>
+                </article>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="stats-grid">
+                    <article class="stat-card"><strong data-stat="teams">30+</strong><span>teams tracked</span></article>
+                    <article class="stat-card"><strong data-stat="matches">8+</strong><span>matches listed</span></article>
+                    <article class="stat-card"><strong data-stat="games">4</strong><span>games covered</span></article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container section-heading">
+                <div>
+                    <span class="eyebrow">Destaques</span>
+                    <h2>Notícias em destaque</h2>
+                </div>
+                <a class="text-link" href="noticias.html">Todas as notícias</a>
+            </div>
+            <div class="container card-grid" data-featured-news></div>
+        </section>
+
+        <section class="section section-alt">
+            <div class="container section-heading">
+                <div>
+                    <span class="eyebrow">Agenda</span>
+                    <h2>Próximas partidas</h2>
+                </div>
+                <a class="text-link" href="partidas.html">Calendário completo</a>
+            </div>
+            <div class="container match-grid" data-upcoming-matches></div>
+        </section>
+
+        <section class="section">
+            <div class="container cta-band">
+                <div>
+                    <span class="eyebrow">Rankings</span>
+                    <h2>Veja quem domina a temporada GTATIC.</h2>
+                    <p>Ranking fictício de times e jogadores com visual de portal competitivo.</p>
+                </div>
+                <a class="btn btn-primary" href="ranking.html">Abrir ranking</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 GTATIC. Projeto estático para portfólio.</p>
+    </footer>
+    <button class="back-to-top" type="button" data-back-to-top aria-label="Voltar ao topo">↑</button>
+    <script src="js/fallback-data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

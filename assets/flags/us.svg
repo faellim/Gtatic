@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="64" viewBox="0 0 96 64" role="img" aria-label="United States flag">
+  <rect width="96" height="64" rx="8" fill="#fff"/>
+  <path d="M0 8h96v8H0zm0 16h96v8H0zm0 16h96v8H0zm0 16h96v8H8a8 8 0 0 1-8-8z" fill="#b22234"/>
+  <path d="M0 8a8 8 0 0 1 8-8h38v36H0z" fill="#3c3b6e"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="64" viewBox="0 0 96 64" role="img" aria-label="France flag">
+  <rect width="32" height="64" rx="8" fill="#0055a4"/>
+  <rect x="32" width="32" height="64" fill="#fff"/>
+  <path d="M64 0h24a8 8 0 0 1 8 8v48a8 8 0 0 1-8 8H64z" fill="#ef4135"/>
+</svg>

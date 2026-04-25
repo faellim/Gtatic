@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eventos fictícios futuros e históricos do GTATIC para CS2, Valorant, LoL e Overwatch.">
+    <meta name="author" content="Rafael">
+    <meta property="og:title" content="Eventos | GTATIC">
+    <meta property="og:description" content="Agenda de eventos de e-sports com locais, datas e jogos em destaque.">
+    <meta property="og:image" content="assets/images/gtatic.png">
+    <meta property="og:type" content="website">
+    <title>Eventos de e-sports | GTATIC</title>
+    <link rel="icon" href="assets/icons/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="eventos">
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="GTATIC - página inicial">
+            <img src="assets/images/gtatic.png" alt="Logotipo GTATIC" width="144" height="48">
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-controls="primary-menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        <nav class="site-nav" aria-label="Navegação principal">
+            <ul id="primary-menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="ranking.html">Ranking</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="partidas.html">Partidas</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Alternar tema">Tema</button>
+    </header>
+    <p class="source-banner" data-source-banner hidden></p>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <span class="eyebrow">Agenda GTATIC</span>
+                <h1>Eventos de e-sports</h1>
+                <p>Eventos fictícios separados entre próximos compromissos e histórico recente.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container section-heading">
+                <div>
+                    <span class="eyebrow">Próximos</span>
+                    <h2>Eventos futuros</h2>
+                </div>
+            </div>
+            <div class="container event-grid" data-future-events></div>
+        </section>
+
+        <section class="section section-alt">
+            <div class="container section-heading">
+                <div>
+                    <span class="eyebrow">Histórico</span>
+                    <h2>Eventos passados</h2>
+                </div>
+            </div>
+            <div class="container event-grid" data-past-events></div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 GTATIC. Projeto estático para portfólio.</p>
+    </footer>
+    <button class="back-to-top" type="button" data-back-to-top aria-label="Voltar ao topo">↑</button>
+    <script src="js/fallback-data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

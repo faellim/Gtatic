@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com o GTATIC, portal estático fictício de e-sports criado para portfólio.">
+    <meta name="author" content="Rafael">
+    <meta property="og:title" content="Contato | GTATIC">
+    <meta property="og:description" content="Envie uma mensagem para a equipe fictícia do portal GTATIC.">
+    <meta property="og:image" content="assets/images/gtatic.png">
+    <meta property="og:type" content="website">
+    <title>Contato | GTATIC</title>
+    <link rel="icon" href="assets/icons/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contato">
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="GTATIC - página inicial">
+            <img src="assets/images/gtatic.png" alt="Logotipo GTATIC" width="144" height="48">
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-controls="primary-menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        <nav class="site-nav" aria-label="Navegação principal">
+            <ul id="primary-menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="ranking.html">Ranking</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="partidas.html">Partidas</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Alternar tema">Tema</button>
+    </header>
+    <p class="source-banner" data-source-banner hidden></p>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <span class="eyebrow">Fale conosco</span>
+                <h1>Contato</h1>
+                <p>Envie uma mensagem fictícia para o GTATIC. O formulário valida os campos e confirma o envio sem recarregar a página.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container contact-layout">
+                <form class="contact-form" data-contact-form novalidate>
+                    <div class="form-field">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" autocomplete="name" required minlength="2">
+                        <small data-error-for="nome"></small>
+                    </div>
+                    <div class="form-field">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" autocomplete="email" required>
+                        <small data-error-for="email"></small>
+                    </div>
+                    <div class="form-field">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="6" required minlength="12"></textarea>
+                        <small data-error-for="mensagem"></small>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Enviar mensagem</button>
+                    <p class="form-success" data-form-success role="status" hidden>Mensagem enviada com sucesso. Obrigado por falar com o GTATIC!</p>
+                </form>
+
+                <aside class="contact-card" aria-label="Informações de contato">
+                    <h2>GTATIC Brasil</h2>
+                    <p>Portal fictício de e-sports criado para demonstrar HTML, CSS e JavaScript puro.</p>
+                    <ul class="contact-list">
+                        <li><strong>E-mail:</strong> contato@gtatic.gg</li>
+                        <li><strong>Redes:</strong> @gtatic.gg</li>
+                        <li><strong>Localização:</strong> Brasil</li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 GTATIC. Projeto estático para portfólio.</p>
+    </footer>
+    <button class="back-to-top" type="button" data-back-to-top aria-label="Voltar ao topo">↑</button>
+    <script src="js/fallback-data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

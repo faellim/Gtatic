@@ -1,0 +1,8 @@
+[
+  { "id": "n1", "title": "Vitality holds the top spot after a clean playoff run", "summary": "The French core keeps its lead in the fictional GTATIC ranking after another efficient lower-bracket performance.", "category": "CS2", "date": "2026-05-08", "image": "assets/ui/cs2.png", "featured": true },
+  { "id": "n2", "title": "LOUD enters the Valorant final with map-pool advantage", "summary": "The Brazilian squad arrives with strong split control and a fast retake style that should define the series.", "category": "Valorant", "date": "2026-05-11", "image": "assets/ui/valorant.png", "featured": true },
+  { "id": "n3", "title": "Academy players reshape the LoL transfer window", "summary": "Teams are investing in younger rosters as scrim reports point to a faster early-game meta.", "category": "LoL", "date": "2026-05-14", "image": "assets/ui/lol.png", "featured": true },
+  { "id": "n4", "title": "Overwatch regional cup updates its map rotation", "summary": "Control maps gain priority and best-of-five matches should become more aggressive for viewers.", "category": "Overwatch", "date": "2026-05-17", "image": "assets/ui/overwatch.png", "featured": false },
+  { "id": "n5", "title": "BLAST-style compact event format inspires local organizers", "summary": "A shorter Swiss stage and weekend playoffs give smaller events a polished broadcast rhythm.", "category": "CS2", "date": "2026-05-21", "image": "assets/ui/blast.png", "featured": false },
+  { "id": "n6", "title": "CS2 teams prioritize utility damage in practice blocks", "summary": "Analysts expect more set-piece rounds as coaching staffs search for safer mid-round calls.", "category": "CS2", "date": "2026-05-25", "image": "assets/ui/cs2.png", "featured": false }
+]

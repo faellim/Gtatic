@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ranking fictício GTATIC de times e jogadores de CS2 com filtros e destaques para o top 3.">
+    <meta name="author" content="Rafael">
+    <meta property="og:title" content="Ranking | GTATIC">
+    <meta property="og:description" content="Listas organizadas de times e jogadores com medalhas para o top 3.">
+    <meta property="og:image" content="assets/images/gtatic.png">
+    <meta property="og:type" content="website">
+    <title>Ranking de times e jogadores | GTATIC</title>
+    <link rel="icon" href="assets/icons/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="ranking">
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="GTATIC - página inicial">
+            <img src="assets/images/gtatic.png" alt="Logotipo GTATIC" width="144" height="48">
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-controls="primary-menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        <nav class="site-nav" aria-label="Navegação principal">
+            <ul id="primary-menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="ranking.html">Ranking</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="partidas.html">Partidas</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Alternar tema">Tema</button>
+    </header>
+    <p class="source-banner" data-source-banner hidden></p>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <span class="eyebrow">Temporada 2026</span>
+                <h1>Ranking GTATIC</h1>
+                <p>Classificação fictícia de times e jogadores de CS2 com visual limpo, medalhas e filtros por categoria.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container toolbar">
+                <label class="search-field" for="ranking-search">
+                    <span>Search rankings</span>
+                    <input id="ranking-search" type="search" data-ranking-search placeholder="Ex.: FURIA, ZywOo, G2">
+                </label>
+                <div class="filter-group" data-ranking-filters aria-label="Filtrar ranking por categoria">
+                    <button class="filter-button active" type="button" data-ranking-filter="teams">Teams</button>
+                    <button class="filter-button" type="button" data-ranking-filter="players">Players</button>
+                </div>
+            </div>
+            <div class="container ranking-grid">
+                <section class="ranking-panel" data-ranking-section="teams">
+                    <div class="section-heading compact">
+                        <div>
+                            <span class="eyebrow">Times</span>
+                            <h2>Ranking de times</h2>
+                        </div>
+                    </div>
+                    <ol class="ranking-list" data-team-ranking></ol>
+                </section>
+                <section class="ranking-panel" data-ranking-section="players">
+                    <div class="section-heading compact">
+                        <div>
+                            <span class="eyebrow">Jogadores</span>
+                            <h2>Ranking de jogadores</h2>
+                        </div>
+                    </div>
+                    <ol class="ranking-list" data-player-ranking></ol>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 GTATIC. Projeto estático para portfólio.</p>
+    </footer>
+    <button class="back-to-top" type="button" data-back-to-top aria-label="Voltar ao topo">↑</button>
+    <script src="js/fallback-data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

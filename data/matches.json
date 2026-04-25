@@ -1,0 +1,10 @@
+[
+  { "id": "m1", "game": "CS2", "teamA": "Team Vitality", "teamB": "NAVI", "date": "2026-05-02", "time": "18:00", "event": "GTATIC Masters", "status": "Upcoming" },
+  { "id": "m2", "game": "Valorant", "teamA": "LOUD", "teamB": "FURIA", "date": "2026-04-25", "time": "20:30", "event": "Brazil Circuit Final", "status": "Live" },
+  { "id": "m3", "game": "CS2", "teamA": "G2 Esports", "teamB": "FaZe Clan", "date": "2026-05-06", "time": "16:00", "event": "BLAST Spring Showdown", "status": "Upcoming" },
+  { "id": "m4", "game": "CS2", "teamA": "paiN Gaming", "teamB": "FURIA", "date": "2026-05-09", "time": "19:00", "event": "South America Finals", "status": "Upcoming" },
+  { "id": "m5", "game": "LoL", "teamA": "INTZ", "teamB": "Cloud9", "date": "2026-05-10", "time": "14:00", "event": "Americas Invitational", "status": "Upcoming" },
+  { "id": "m6", "game": "Overwatch", "teamA": "Heroic", "teamB": "ENCE", "date": "2026-05-12", "time": "19:30", "event": "Regional Cup", "status": "Upcoming" },
+  { "id": "m7", "game": "CS2", "teamA": "Astralis", "teamB": "ENCE", "date": "2026-04-18", "time": "15:00", "event": "Open Series Europe", "status": "Finished" },
+  { "id": "m8", "game": "CS2", "teamA": "Team Spirit", "teamB": "Cloud9", "date": "2026-04-20", "time": "17:00", "event": "Eurasia Clash", "status": "Finished" }
+]

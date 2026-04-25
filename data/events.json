@@ -1,0 +1,8 @@
+[
+  { "id": "e1", "name": "GTATIC Masters Sao Paulo", "location": "Sao Paulo, Brazil", "date": "2026-06-12", "game": "CS2", "status": "Upcoming" },
+  { "id": "e2", "name": "Valorant Elite Cup", "location": "Rio de Janeiro, Brazil", "date": "2026-07-04", "game": "Valorant", "status": "Upcoming" },
+  { "id": "e3", "name": "National LoL League", "location": "Curitiba, Brazil", "date": "2026-08-22", "game": "LoL", "status": "Upcoming" },
+  { "id": "e4", "name": "Overwatch Regional Finals", "location": "Belo Horizonte, Brazil", "date": "2026-09-19", "game": "Overwatch", "status": "Upcoming" },
+  { "id": "e5", "name": "GTATIC Winter Circuit", "location": "Online", "date": "2026-03-15", "game": "CS2", "status": "Past" },
+  { "id": "e6", "name": "Brazil Valorant Arena", "location": "Online", "date": "2026-02-08", "game": "Valorant", "status": "Past" }
+]

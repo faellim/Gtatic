@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="HeavyGod player image">
+  <rect width="160" height="160" rx="32" fill="#171b24"/>
+  <rect x="12" y="12" width="136" height="136" rx="28" fill="#202634" stroke="#38bdf8" stroke-width="4"/>
+  <text x="80" y="82" text-anchor="middle" fill="#38bdf8" font-family="Arial, sans-serif" font-size="44" font-weight="800">H</text>
+  <text x="80" y="113" text-anchor="middle" fill="#f6f7fb" font-family="Arial, sans-serif" font-size="13" font-weight="700">HeavyGod</text>
+</svg>
