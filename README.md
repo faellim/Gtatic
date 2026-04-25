@@ -134,9 +134,8 @@ Then open:
 http://127.0.0.1:4173
 ```
 ---
+## License
 
-📄 License
+This project is licensed under the [MIT License](LICENSE).
 
-This project is licensed under the MIT License.
-See the LICENSE
- file for details.
+---
