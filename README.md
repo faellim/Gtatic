@@ -1,5 +1,10 @@
 # 🎮 GTATIC
 
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
 GTATIC is a professional static e-sports portal focused on Counter-Strike 2 (CS2), built with HTML, CSS and vanilla JavaScript.
 
 It was designed as a **portfolio-ready project** that simulates a real-world esports platform, combining modern UI, structured data handling, and resilient architecture — even without a full backend.
